@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    width: 100%;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+nav img{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav input{
+    justify-content: center;
+    height: 40px;
+    width: 10rem;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius:20px;
+}
+
+.nav-1st{
+padding-left:10px;
+display: flex;
+align-content: center;
+justify-content: center;
+
+}
+
+.nav-2nd{
+    padding-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-2nd i{
+
+    padding-right: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.nav-2nd i.fa-solid {
+    color: rgb(10, 8, 8);
+    position: relative;
+
+}
+
+.nav-2nd i:hover{
+    font-size: 3rem;
+    color: rgb(48, 48, 212);
+}
+
+
+.nav-3rd{
+    padding-left: 300px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+
+}
+
+.nav-3rd i{
+    font-size: 25px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle{
+    border-radius:50%;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+.left-corner ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.left-corner ul li:hover{
+    animation: Animation1 2s ease 2;
+    border-radius: 10px;
+}
+
+.left-corner ul li img{
+    margin-right: 10px;
+}
+
+.left-corner ul li i{
+    margin-right: 10px;
+    font-size: 35px;
+}
+
+footer{
+ margin-left: 50px;
+}
+
+.left-corner ul li{
+    display: flex;
+    align-items: center;
+}
+
+.left-corner ul li .fa-user-group{
+    color: rgb(48, 48, 139);
+}
+
+.left-corner ul li .fa-video{
+    color: rgb(195, 83, 18);
+}
+.left-corner ul li .fa-users{
+    color: rgb(38, 38, 130);
+}
+.left-corner ul li .fa-bookmark{
+    color: rgb(36, 36, 36);
+}
+.left-corner ul li .fa-facebook-messenger{
+    color: rgb(38, 38, 130);
+}
+.left-corner ul li .fa-flag{
+    color: rgb(38, 38, 130);
+}
+.left-corner ul li .fa-calendar-days{
+    color: rgb(185, 101, 16);
+}
+.left-corner ul li .fa-bullhorn{
+    color: rgb(38, 38, 130);
+}
+.left-corner ul li .fa-gift{
+    color: rgb(167, 24, 122);
+}
+.left-corner ul li .fa-suitcase{
+    color: rgb(10, 184, 25);
+}
+.left-corner ul li .fa-star{
+    color: rgb(170, 204, 16);
+}
+
+.footer-privacy a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(232, 232, 232);
+}
+
+
+.middle{
+margin-left: 150px;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+margin-right: 200px;
+}
+
+
+.create-story{
+    height: 180px;
+    border: 2px solid black;
+    width: 125px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.story-section{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+.story-1{
+    height: 180px;
+    width: 125px;
+    border: 2px solid black;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.post:hover{
+    animation: Animation1 1.5s ease-in-out 2;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(198, 198, 198, 0.807);
+    height: 100px;
+    width: 600px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+
+.post-top{
+    display: flex;
+    
+}
+
+.post-botton{
+    display: flex;
+    justify-content: space-around;
+    color:rgb(190, 127, 10);
+    font-size: 20px;
+}
+
+.post-botton i{
+    color: rgb(190, 127, 10);
+}
+
+
+.post-top2{
+    height: 200px;
+    display: flex;
+    width: 600px;
+    margin-top: 26px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    margin-left: 38px;
+}
+
+.post-info span {
+    font-weight: bolder;
+    margin-left:3px;
+    
+}
+
+.post-info p{
+font-size: 12px;
+font-weight: bold;
+margin-left: 5px;
+}
+
+.post-botton2{
+    display: flex;
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+
+
+
+.action2 i{
+    color: black;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.action2 span{
+    margin-right: 80px;
+}
+
+
+.post-top3{
+    height: 350px;
+    display: flex;
+    width: 600px;
+    margin-top: 26px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    margin-left: 38px;
+}
+
+.post-botton3{
+    display: flex;
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+
+
+
+.action3 i{
+    color: black;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.action3 span{
+    margin-right: 80px;
+}
+
+
+
+
+.post-top4{
+    height: 500px;
+    display: flex;
+    width: 600px;
+    margin-top: 26px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    margin-left: 38px;
+}
+
+.post-botton4{
+    display: flex;
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+
+
+
+.action4 i{
+    color: black;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.action4 span{
+    margin-right: 80px;
+}
+
+
+
+
+
+
+
+.circle1{
+    display: flex;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.mind{
+    width:500px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+.right-corner{
+    height: 600px;
+    width: 300px;
+    background-color: rgb(224, 224, 224);
+    margin: 20px;
+    margin-left: 10px;
+}
+
+.last{
+display: flex;
+color: rgb(0, 0, 0);
+align-items: flex-start;
+margin: 10px;
+}
+
+.last p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.action2:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.action:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.action2:hover{
+    background-color: rgb(113, 113, 113);
+    border-radius: 10px;
+}
+.action2:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.last p:hover{
+   animation: Animation2 1s ease-in 5;
+}
+
+@keyframes Animation1{
+    from{
+        background-color: gray;
+    }
+    to{
+        background-color: aqua;
+    }
+}
+
+@keyframes Animation2{
+    from{
+        background-color: rgb(0, 0, 0);
+
+    }
+    to{
+        font-size: 1.5rem;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: rgb(219, 219, 219);
+    
+    }
+}
+
+
